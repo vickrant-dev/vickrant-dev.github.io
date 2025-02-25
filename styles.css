@@ -138,6 +138,12 @@ body{
     z-index: -999;
 }
 
+.main-container .hero-container .navbar{
+    z-index: 1000;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+}
+
 .main-container .hero-container .navbar nav{
     display: flex;
     align-items: center;
@@ -808,3 +814,158 @@ body{
     font-size: var(--h5);
 }
 
+/* === FOOTER === */
+.main-container .footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5rem;
+    margin-top: 8.75rem;
+    border: 1px solid var(--primary-color-500);
+    background-color: rgba(10, 34, 67, 0.1);
+    border-radius: 50px 50px 0 0;
+    backdrop-filter: blur(1px);
+}
+
+.main-container .footer-container .footer-logo {
+    margin-bottom: .75rem;
+    margin-top: 3rem;
+}
+
+.main-container .footer-container .footer-logo img{
+    width: 3.35rem;
+    /* width: 8.7rem; */
+    height: 100%;
+}
+
+.main-container .footer-container .footer-heading h2{
+    font-size: var(--h6);
+    font-weight: 500;
+    /* background: linear-gradient(90deg, #F5F5F5 0%, var(--secondary-color-400) 100%); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+
+.main-container .footer-container .footer-heading h2 span{
+    color: var(--secondary-color-400);
+}
+
+.main-container .footer-container .footer-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.main-container .footer-container .footer-cta .cta-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 49px;
+    margin: 0 auto;
+    margin-top: 1.875rem;
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid var(--primary-color-300);
+    color: var(--white-color-500);
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: var(--p);
+
+    background: linear-gradient(180deg, rgba(2, 5, 18, 1) 0%, rgba(2, 5, 18, 0.32) 100%), rgba(2, 5, 18, 0.12);
+    box-shadow: inset 0 -5px 18px #0070CC;
+    cursor: pointer;
+    transition: all 300ms 0s ease;
+}
+
+.main-container .footer-container .cta-btn i{
+    font-size: 14px;
+    padding-left: 0.8rem;
+    transform: translate(0px) translateY(0px);
+    transition: all 300ms 0s ease;
+}
+
+.main-container .footer-container .footer-cta .cta-btn:hover{
+    box-shadow: inset 0px -8px 18px #0070CC;
+    transition: all 300ms 0s ease;
+}
+
+.main-container .footer-container .footer-cta .cta-btn:hover i{
+    transform: translateX(3px) translateY(-2px);
+    transition: all 300ms 0s ease;
+}
+
+.main-container .footer-container .footer-cta .cta-email-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    height: 49px;
+    margin: 0 auto;
+    margin-top: 1.875rem;
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid var(--primary-color-300);
+    color: var(--white-color-500);
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: var(--p);
+
+    background-color: #020512;
+    cursor: pointer;
+    transition: all 300ms 0s ease;
+}
+
+.main-container .footer-container .cta-email-btn i{
+    font-size: 15px;
+    padding-left: 0.6rem;
+    transform: translate(0px) translateY(0px);
+    transition: all 300ms 0s ease;
+}
+
+.main-container .footer-container .footer-cta .cta-email-btn:hover{
+    border: 1px solid var(--secondary-color-500);
+    transition: all 300ms 0s ease;
+}
+
+.main-container .footer-container .footer-social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-container .footer-container .footer-social-links li{
+    background-color: rgba(10, 34, 67, 0.4);
+    border: 1px solid rgba(51, 93, 142, .7);
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 150ms 0s ease;
+}
+
+.main-container .footer-container .footer-social-links li:hover{
+    background-color: transparent;
+    transition: all 150ms 0s ease;
+}
+
+.main-container .footer-container .footer-social-links li i{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transform: translateY(-1px);
+    color: var(--secondary-color-200);
+}
+
+.main-container .footer-container .footer-rights{
+    margin-bottom: 1rem;
+}
