@@ -376,7 +376,7 @@ body{
     width: 250px;
     height: 250px;
     background-color: var(--secondary-color-700);
-    opacity: .9;
+    opacity: .2;
     filter: blur(250px);
     transform: translateY(40px);
     border-radius: 50%;
