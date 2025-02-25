@@ -155,8 +155,10 @@ body{
     top: 99px;
 }
 
-.main-container .hero-container .navbar nav .logo h5{
-    font-family: var(--primary-font);
+.main-container .hero-container .navbar nav .logo img{
+    width: 8.7rem;
+    height: 100%;
+    transform: translateY(5px);
 }
 
 .main-container .hero-container .navbar nav .menu{
@@ -281,6 +283,7 @@ body{
 .main-container .hero-container .hero-sec .hero-heading{
     font-family: var(--primary-font);
     line-height: 78.4px;
+    font-size: var(--h4);
 }
 
 .main-container .hero-container .hero-sec .hero-heading .hero-grad-1, .hero-grad-2{
@@ -416,11 +419,12 @@ body{
     margin-bottom: 4rem; /* adjust this */
 }
 
-.main-container .services-container .services-heading h5{
+.main-container .services-container .services-heading h3{
     background: linear-gradient(180deg, #F5F5F5 0%, #a5a5a5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
+    font-size: var(--h5);
 }
 
 .main-container .services-container .services-cards{
@@ -594,11 +598,12 @@ body{
     margin-bottom: 4rem;   
 }
 
-.main-container .works-container .works-heading h5{
+.main-container .works-container .works-heading h3{
     background: linear-gradient(180deg, #F5F5F5 0%, #a5a5a5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
+    font-size: var(--h5);
 }
 
 .main-container .works-container .works-cards {
@@ -795,9 +800,11 @@ body{
     margin-bottom: 4rem;   
 }
 
-.main-container .about-container .about-heading h5{
+.main-container .about-container .about-heading h3{
     background: linear-gradient(180deg, #F5F5F5 0%, #a5a5a5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
+    font-size: var(--h5);
 }
+
